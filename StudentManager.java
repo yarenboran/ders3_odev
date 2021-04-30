@@ -6,10 +6,10 @@ public class StudentManager extends UserManager {
 	}
 	
 	public void registerStudent(Student student,Course course) {
-		System.out.println(student.getFirstname()+" , "+course.getCourseName()+" kursuna kayıt oldu!");
+		System.out.println(student.getFirstname()+" , "+course.getCourseName()+" kursuna kayÃ½t oldu!");
 	}
-	public void registerDelete(Student student, Course course) {
-		System.out.println(student.getFirstname()+" kullanıcısının, "+course.getCourseName()+" kursundan kaydı silindi!");
+	public void unregisterStudent(Student student, Course course) {
+		System.out.println(student.getFirstname()+" kullanÃ½cÃ½sÃ½nÃ½n, "+course.getCourseName()+" kursundan kaydÃ½ silindi!");
 	}
 	
 	
