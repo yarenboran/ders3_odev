@@ -1,14 +1,14 @@
 package odev;
 
 public class Student extends User {
-	private Course[] registerToCourses;
+	private Course[] registeredCourses;
 	private String progress;
 	
-	public Course[] getRegisterToCourses() {
+	public Course[] registeredCourses() {
 		return registerToCourses;
 	}
-	public void setRegisterToCourses(Course[] registerToCourses) {
-		this.registerToCourses = registerToCourses;
+	public void setregisteredCourses(Course[] registeredCourses) {
+		this.registeredCourses  = registeredCourses;
 	}
 	public String getProgress() {
 		return "%"+ progress;
