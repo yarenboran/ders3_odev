@@ -19,7 +19,7 @@ public class Main {
 		student.setId(1);
 		student.setFirstname("Yaren");
 		student.setLastname("Boran");
-		student.setRegisterToCourses(courses);
+		student.setregisteredCourses(courses);
 		student.setProgress("55");
 		
 		
