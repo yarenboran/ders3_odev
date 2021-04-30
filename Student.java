@@ -5,7 +5,7 @@ public class Student extends User {
 	private String progress;
 	
 	public Course[] registeredCourses() {
-		return registerToCourses;
+		return registeredCourses;
 	}
 	public void setregisteredCourses(Course[] registeredCourses) {
 		this.registeredCourses  = registeredCourses;
