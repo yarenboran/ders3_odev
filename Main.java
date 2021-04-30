@@ -41,12 +41,12 @@ public class Main {
 		userManager.add(instructor);
 		
 		StudentManager studentManager=new StudentManager();
-		studentManager.add(user);
+		studentManager.add(student);
 		studentManager.registerStudent(student, course);
 		
 		
 		InstructorManager instructorManager=new InstructorManager();
-		instructorManager.add(user);
+		instructorManager.add(instructor);
 		instructorManager.addMultipleCourse(instructor, courses);
 		
 
