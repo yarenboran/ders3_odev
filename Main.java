@@ -14,12 +14,6 @@ public class Main {
 		
 		Course[] courses= {course,course2}; 
 		
-		User user=new User();
-		user.setId(1);
-		user.setFirstname("Yaren");
-		user.setLastname("Boran");
-		user.setEmailAdress("yrn_brn@hotmail.com.tr");
-		
 		
 		Student student=new Student();
 		student.setId(1);
@@ -36,9 +30,6 @@ public class Main {
 		instructor.setBiography("-----");
 		instructor.setCertificates("MCT");
 		
-		UserManager userManager=new UserManager();
-		userManager.add(student);
-		userManager.add(instructor);
 		
 		StudentManager studentManager=new StudentManager();
 		studentManager.add(student);
