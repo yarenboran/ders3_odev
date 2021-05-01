@@ -4,6 +4,8 @@ public class Instructor extends User {
 	private String[] courses;
 	private String biography;
 	private String certificates;
+	
+	
 	public String getBiography() {
 		return biography;
 	}
