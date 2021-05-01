@@ -2,7 +2,7 @@ package odev;
 
 public class UserManager {
 	public void add(User user) {
-        System.out.println(user.getFirstname() + " " + user.getLastname() + " adlı kullanıcı eklendi.");
+        System.out.println(user.getFirstname() + " " + user.getLastname() + " adlÃ½ kullanÃ½cÃ½ eklendi.");
     }
 	
 	public void addMultiple(User[] users) {
@@ -15,7 +15,7 @@ public class UserManager {
         }
         	
         public void delete(User user) {
-        	System.out.println(user.getFirstname() + " " + user.getLastname() + " adlı kullanıcı eklendi.");
+        	System.out.println(user.getFirstname() + " " + user.getLastname() + " adlÃ½ kullanÃ½cÃ½ silindi.");
         }
         
         
